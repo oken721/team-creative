@@ -1,0 +1,21 @@
+@use "../global" as *;
+
+.l-footer__inner {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.l-footer__logo {
+  &::before {
+    content: "\1F308";
+    font-size: 60px;
+  }
+}
+
+.l-footer__copyright {
+  display: block;
+  margin-block: 16px;
+  text-align: center;
+}

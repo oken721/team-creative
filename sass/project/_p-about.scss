@@ -1,0 +1,28 @@
+@use "../global" as *;
+
+.p-about {
+  border-bottom: 2px solid #ddd;
+  padding-block: 60px;
+  text-align: center;
+}
+
+.p-about__container {
+  border-radius: 30px;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 40%);
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 680px;
+  padding: 40px;
+}
+
+.p-about__container-ttl {
+  font-size: 20px;
+}
+
+.p-about__container-lists {
+  margin-top: 30px;
+}
+
+.p-about__container-list + .p-about__container-list {
+  margin-top: 20px;
+}

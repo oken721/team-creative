@@ -1,0 +1,12 @@
+@use "../global" as *;
+
+body {
+  color: #333;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-inline: 40px;
+  width: 85.9375vw;
+}

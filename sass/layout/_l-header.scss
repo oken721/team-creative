@@ -1,0 +1,16 @@
+@use "../global" as *;
+
+.l-header {
+  background-color: yellow;
+}
+
+.l-header__inner {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.l-header__ttl {
+  font-size: 24px;
+}
