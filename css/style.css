@@ -103,7 +103,7 @@ body {
 }
 
 .p-flow {
-  background: url("/img/oken-img.jpg") no-repeat top center/cover;
+  background: url("../img/oken-img.jpg") no-repeat top center/cover;
   padding-block: 60px;
   position: relative;
   text-align: center;
