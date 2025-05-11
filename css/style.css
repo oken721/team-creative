@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .c-heading__ttl {
   font-size: 30px;
 }
@@ -10,7 +9,7 @@
 
 .c-nav-list {
   display: -webkit-box;
-  display: flexbox;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
@@ -24,16 +23,16 @@
 }
 
 .l-header__inner {
-  align-items: center;
   -webkit-box-align: center;
-  -webkit-box-pack: justify;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
-  display: flexbox;
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
   height: 60px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .l-header__ttl {
@@ -41,16 +40,16 @@
 }
 
 .l-footer__inner {
-  align-items: center;
   -webkit-box-align: center;
-  -webkit-box-pack: justify;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
-  display: flexbox;
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
   height: 60px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .l-footer__logo::before {
@@ -83,8 +82,8 @@ body {
 
 .p-about__container {
   border-radius: 30px;
-  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 40%);
-  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
   margin-top: 60px;
   max-width: 680px;
@@ -104,16 +103,15 @@ body {
 }
 
 .p-flow {
-  background: url("../img/oken-img.jpg") no-repeat top center/cover;
+  background: url("/img/oken-img.jpg") no-repeat top center/cover;
   padding-block: 60px;
   position: relative;
   text-align: center;
   width: 100%;
   z-index: 0;
 }
-
 .p-flow::before {
-  background-color: rgb(0 0 0 / 50%);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   content: "";
   position: absolute;
@@ -124,20 +122,20 @@ body {
 }
 
 .p-flow__container {
-  -webkit-box-pack: center;
   display: -webkit-box;
-  display: flexbox;
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
   gap: 60px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .p-flow__container-box {
   background-color: #fff;
   border-radius: 30px;
-  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 40%);
-  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin-top: 60px;
   padding: 40px;
 }
